@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.polarbookshop.web_catalogue_service.BookJsonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-15T12:42:09.210Z" hostname="jen-Blade-Stealth" time="0.913">
+<testsuite name="com.polarbookshop.web_catalogue_service.BookJsonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-18T13:25:21.252Z" hostname="jen-Blade-Stealth" time="0.881">
   <properties/>
-  <testcase name="testSerialize()" classname="com.polarbookshop.web_catalogue_service.BookJsonTest" time="0.867"/>
-  <testcase name="testDeserialize()" classname="com.polarbookshop.web_catalogue_service.BookJsonTest" time="0.043"/>
-  <system-out><![CDATA[13:42:08.190 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.polarbookshop.web_catalogue_service.BookJsonTest]: BookJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-13:42:08.333 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.polarbookshop.web_catalogue_service.WebCatalogueServiceApplication for test class com.polarbookshop.web_catalogue_service.BookJsonTest
+  <testcase name="testSerialize()" classname="com.polarbookshop.web_catalogue_service.BookJsonTest" time="0.833"/>
+  <testcase name="testDeserialize()" classname="com.polarbookshop.web_catalogue_service.BookJsonTest" time="0.044"/>
+  <system-out><![CDATA[14:25:20.267 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.polarbookshop.web_catalogue_service.BookJsonTest]: BookJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:25:20.412 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.polarbookshop.web_catalogue_service.WebCatalogueServiceApplication for test class com.polarbookshop.web_catalogue_service.BookJsonTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -15,9 +15,9 @@
 
  :: Spring Boot ::                (v3.5.4)
 
-2025-08-15T13:42:08.793+01:00  INFO 106158 --- [web-catalogue-service] [    Test worker] c.p.web_catalogue_service.BookJsonTest   : Starting BookJsonTest using Java 24.0.2 with PID 106158 (started by jen in /home/jen/IdeaProjects/cloud_native_book_examples/web-catalogue-service)
-2025-08-15T13:42:08.794+01:00  INFO 106158 --- [web-catalogue-service] [    Test worker] c.p.web_catalogue_service.BookJsonTest   : No active profile set, falling back to 1 default profile: "default"
-2025-08-15T13:42:09.194+01:00  INFO 106158 --- [web-catalogue-service] [    Test worker] c.p.web_catalogue_service.BookJsonTest   : Started BookJsonTest in 0.795 seconds (process running for 1.848)
+2025-08-18T14:25:20.826+01:00  INFO 111757 --- [web-catalogue-service] [    Test worker] c.p.web_catalogue_service.BookJsonTest   : Starting BookJsonTest using Java 24.0.2 with PID 111757 (started by jen in /home/jen/IdeaProjects/cloud_native_book_examples/web-catalogue-service)
+2025-08-18T14:25:20.827+01:00  INFO 111757 --- [web-catalogue-service] [    Test worker] c.p.web_catalogue_service.BookJsonTest   : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T14:25:21.237+01:00  INFO 111757 --- [web-catalogue-service] [    Test worker] c.p.web_catalogue_service.BookJsonTest   : Started BookJsonTest in 0.764 seconds (process running for 1.857)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (/home/jen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.6/17b32fd9f57deef02842f7f05abc4ad8127fe34e/byte-buddy-agent-1.17.6.jar)

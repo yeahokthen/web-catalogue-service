@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "name": "polar",
+      "type": "com.polarbookshop.web_catalogue_service.config.PolarProperties",
+      "sourceType": "com.polarbookshop.web_catalogue_service.config.PolarProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "polar.greeting",
+      "type": "java.lang.String",
+      "sourceType": "com.polarbookshop.web_catalogue_service.config.PolarProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

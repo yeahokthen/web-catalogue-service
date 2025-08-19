@@ -17,9 +17,16 @@ repositories {
 	mavenCentral()
 }
 
+configurations {
+	compileOnly{
+		extendsFrom annotationProcessor
+	}
+}
+
 ext['reactor-netty.version'] = '1.2.9'
 
 dependencies {
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 	implementation 'org.springframework.boot:spring-boot-starter-web', 'org.springframework.boot:spring-boot-starter-validation', 'org.springframework.boot:spring-boot-starter-webflux','io.projectreactor.netty:reactor-netty-core:1.2.9','io.projectreactor.netty:reactor-netty-http:1.2.9'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
