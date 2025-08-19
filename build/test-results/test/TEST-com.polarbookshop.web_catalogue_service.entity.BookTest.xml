@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.polarbookshop.web_catalogue_service.entity.BookTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-18T13:25:24.454Z" hostname="jen-Blade-Stealth" time="0.019">
-  <properties/>
-  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.polarbookshop.web_catalogue_service.entity.BookTest" time="0.011"/>
-  <testcase name="whenIsbnDefinedButIncorrectThenValidationFails()" classname="com.polarbookshop.web_catalogue_service.entity.BookTest" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
