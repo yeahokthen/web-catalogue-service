@@ -1,6 +1,5 @@
 package com.polarbookshop.web_catalogue_service.controller;
 
-import com.polarbookshop.web_catalogue_service.config.PolarProperties;
 import com.polarbookshop.web_catalogue_service.entity.Book;
 import com.polarbookshop.web_catalogue_service.service.BookService;
 import jakarta.validation.Valid;

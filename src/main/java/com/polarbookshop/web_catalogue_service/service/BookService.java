@@ -23,10 +23,6 @@ public class BookService {
         return bookRepository.findByIsbn(isbn).orElseThrow(() -> new BookNotFoundException(isbn));
     }
 
-    public Book saveBook(Book book) {
-        return bookRepository.save(book);
-    }
-
     public void deleteByIsbn(String isbn) {
         bookRepository.deleteByIsbn(isbn);
     }
