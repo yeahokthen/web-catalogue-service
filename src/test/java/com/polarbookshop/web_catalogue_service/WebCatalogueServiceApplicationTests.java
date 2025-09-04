@@ -17,7 +17,7 @@ class WebCatalogueServiceApplicationTests {
 
 	@Test
 	void whenPostRequestThenBookCreated() {
-		var expectedBook = Book.of("1231231267", "Title", "Author", 9.90);
+		var expectedBook = Book.of("1231231267", "Title", "Author", 9.90, "publisher");
 		webTestClient
 				.post()
 				.uri("/books")
