@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:tc:postgresql:///polarDB_catalogue?TC_IMAGE_TAG=17.6
+    url: jdbc:tc:postgresql:///polarDB_catalogue?TC_IMAGE_TAG=17.0
     username: user
     password: password
