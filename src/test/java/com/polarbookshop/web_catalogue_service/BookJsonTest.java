@@ -41,7 +41,7 @@ class BookJsonTest {
                 "title": "Title",
                 "author": "Author",
                 "price": 9.90,
-                "publisher": "Publisher"
+                "publisher": "publisher"
                 }
                 """;
 
